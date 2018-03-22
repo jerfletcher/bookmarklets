@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>bookmarklets</title>
+    <style>
+    body {
+        font-family: Helvetica Neue, Roboto, Arial, Droid Sans, sans-serif;
+        margin-left:100px;
+    }
+    </style>
+</head>
+
+<body>
+	<h1>
+		Drag link to shortcut bar to save.
+    </h1>
+        <a href="javascript:localStorage.setItem('jf_test', true);console.log('jf_test on');">jf_test on (for video)</a>
+    </p>
+    <p>
+        <a href="javascript:localStorage.removeItem('jf_test');console.log('jf_test off');">jf_test off (for video)</a>
+    </p>
+    <p>
+        <a href="javascript:localStorage.setItem('sdsat_stagingLibrary', true);console.log('DTM stage on');">DTM stage on</a>
+    </p>
+    <p>
+        <a href="javascript:localStorage.removeItem('sdsat_stagingLibrary');console.log('DTM stage off');">DTM stage off</a>
+    </p>
+</body>
+
+</html>
